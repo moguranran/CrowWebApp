@@ -31,15 +31,27 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="manage.py" />
+    <Compile Include="PokemonSpeedCheckerApp\admin.py" />
+    <Compile Include="PokemonSpeedCheckerApp\apps.py" />
+    <Compile Include="PokemonSpeedCheckerApp\migrations\__init__.py" />
+    <Compile Include="PokemonSpeedCheckerApp\models.py" />
+    <Compile Include="PokemonSpeedCheckerApp\tests.py" />
+    <Compile Include="PokemonSpeedCheckerApp\views.py" />
+    <Compile Include="PokemonSpeedCheckerApp\__init__.py" />
     <Compile Include="WebApp\__init__.py" />
     <Compile Include="WebApp\settings.py" />
     <Compile Include="WebApp\urls.py" />
     <Compile Include="WebApp\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="PokemonSpeedCheckerApp\templates\PokemonSpeedCheckerApp\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="PokemonSpeedCheckerApp\" />
+    <Folder Include="PokemonSpeedCheckerApp\migrations\" />
+    <Folder Include="PokemonSpeedCheckerApp\templates\" />
+    <Folder Include="PokemonSpeedCheckerApp\templates\PokemonSpeedCheckerApp\" />
     <Folder Include="WebApp\" />
   </ItemGroup>
   <ItemGroup>
