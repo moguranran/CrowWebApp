@@ -24,7 +24,7 @@ import PokemonSpeedCheckerApp.views
 
 
 urlpatterns = [
-    url(r'^$', PokemonSpeedCheckerApp.views.speed_checker, name='pokemon_speed_checker'),
+    url(r'^$', PokemonSpeedCheckerApp.views.IndexView.as_view(), name='index'),
     # Uncomment the next line to enable the admin:
     #path('admin/', admin.site.urls)
 ]

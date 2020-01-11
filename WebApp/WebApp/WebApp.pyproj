@@ -44,7 +44,9 @@
     <Compile Include="WebApp\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="PokemonSpeedCheckerApp\templates\PokemonSpeedCheckerApp\base.html" />
     <Content Include="PokemonSpeedCheckerApp\templates\PokemonSpeedCheckerApp\index.html" />
+    <Content Include="PokemonSpeedCheckerApp\templates\PokemonSpeedCheckerApp\pokedex.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
